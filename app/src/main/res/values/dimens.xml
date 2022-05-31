@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_name_of_rest">20dp</dimen>
+    <dimen name="text_name_of_user">14dp</dimen>
+    <dimen name="text_delivery">15dp</dimen>
+    <dimen name="text_tag">10dp</dimen>
+    <dimen name="text_hit">10dp</dimen>
+    <dimen name="text_price">10dp</dimen>
+    <dimen name="text_data">12dp</dimen>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/restaurantsFragment"
+        android:title="@string/restaurants_item"
+        android:icon="@drawable/ic_restaurant" />
+    <item
+        android:id="@+id/hitsFragment"
+        android:title="@string/hits_item"
+        android:icon="@drawable/ic_hits"/>
+    <item
+        android:id="@+id/reviewFragment"
+        android:title="@string/review_item"
+        android:icon="@drawable/ic_review"
+        />
+</menu>

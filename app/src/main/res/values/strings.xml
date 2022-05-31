@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ChibbisTestApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="restaurants_item">Restaurants</string>
+    <string name="hits_item">Hits</string>
+    <string name="review_item">Review</string>
+    <string name="review">reviews</string>
+    <string name="minute">%s min</string>
+    <string name="review_score">%s reviews</string>
+    <string name="cost_min">%s ₽</string>
+    <string name="price">%s ₽</string>
+    <string name="error">Sorry, %s</string>
+    <string name="food_tag">#%s</string>
+</resources>

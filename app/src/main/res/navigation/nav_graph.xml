@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/restaurantsFragment">
+
+    <fragment
+        android:id="@+id/restaurantsFragment"
+        android:name="com.elslode.chibbistestapp.presentation.restaurants.RestaurantFragment"
+        android:label="fragment_restaurants"
+        tools:layout="@layout/fragment_restaurants" />
+    <fragment
+        android:id="@+id/hitsFragment"
+        android:name="com.elslode.chibbistestapp.presentation.hits.HitsFragment"
+        android:label="fragment_hits"
+        tools:layout="@layout/fragment_hits" />
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="com.elslode.chibbistestapp.presentation.review.ReviewFragment"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_review" />
+</navigation>

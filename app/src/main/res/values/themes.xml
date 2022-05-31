@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ChibbisTestApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.AppCompat.TextViewNameOfRestourant">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_name_of_rest</item>
+    </style>
+
+    <style name="Theme.AppCompat.TextViewNameUser">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_name_of_user</item>
+    </style>
+
+    <style name="Theme.AppCompat.TextHits">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_hit</item>
+    </style>
+
+    <style name="Theme.AppCompat.TextViewDelivery">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/text_delivery</item>
+    </style>
+
+    <style name="Theme.AppCompat.TextTagOfFood">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/text_delivery</item>
+    </style>
+
+    <style name="Theme.AppCompat.Price">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_price</item>
+    </style>
+
+    <style name="Theme.AppCompat.Data">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/text_data</item>
+    </style>
+</resources>
