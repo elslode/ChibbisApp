@@ -14,4 +14,4 @@ data class HitsDbModel (
     val RestaurantId: Int? = null,
     val RestaurantName: String? = null,
     val RestaurantLogo: String? = null
-        )
+)
